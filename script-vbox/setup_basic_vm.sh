@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #parameters
-vmname="ubuntu-server-02"
+vmname=$1
 ostype="Ubuntu_64"
 isofile="/home/rlopez/practical-devops/isos/ubuntu-16.04.3-server-amd64.iso"
 memory="1024"
